@@ -6,6 +6,9 @@ So let's explore this today!
 
 How our JS code gets executed what are the different phases and steps that come into play.
 
+![image](https://user-images.githubusercontent.com/42679346/126876041-c107ca41-331f-49b2-9969-4306fcf865a4.png)
+
+
 ### Definition of JavaScript:
 
 JS is a single-threaded, lightweight, dynamically interpreted, and just-in-time compiled programming language with first-class functions.
@@ -60,7 +63,8 @@ When a JavaScript Engine executes a script, it creates execution contexts. Each 
 
 Let's take an example to understand it.
 
-// code
+![image](https://user-images.githubusercontent.com/42679346/126876053-d455a66e-c83f-4c6b-9513-159618be3dc1.png)
+
 
 ### The Creation Phase:
 
@@ -82,14 +86,15 @@ Setting up a "Memory Heap" for storing variables and function reference.
 
 Storing the function declarations in the memory heap and variables within the global execution context with the initial values as undefined.
 
-// code
+![image](https://user-images.githubusercontent.com/42679346/126876059-1bdcb9a8-2539-4fa9-9034-aa1679a51572.png)
+
 
 ### The Execution Phase:
 
 During the execution phase the JavaScript Engine executes the code line by line. In this phase, it assigns values to the variables and executes the function calls.
 Note: For every function call, the JavaScript Engine creates a new Function Execution Context.
 
-//code
+![image](https://user-images.githubusercontent.com/42679346/126876063-c4f40ee3-dff2-4cd5-8a51-199b1ca74088.png)
 
 ### Function Execution Context vs Global Execution Context:
 
