@@ -92,7 +92,7 @@ To Sum up in case of:
 3) Function Expressions - Hoisting ❎
 4) Arrow Functions - Hoisting ❎
 
-Whats Next: 
+### Whats Next: 
 Thanks for reading this thread on "Hoisting". In the next tweet of this series, we shall take a look at Closures
 Stay tuned and cheers! 
 
