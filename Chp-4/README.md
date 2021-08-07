@@ -66,3 +66,24 @@ Syntax: setTimeout(fn, delay)
 ![image](https://user-images.githubusercontent.com/42679346/128610005-9b618ab7-67b8-47b2-8c1b-111b5126f9de.png)
 
 
+Callbacks are awesome and opens a whole new dimension of async JS to us.
+But there might arise some problem when you have to execute some code only after previous timeout has occurred.
+
+### Example 3
+
+Say I want to print 
+- 1 to console after 3s
+- 2 to console after 6s
+- 3 to console after 9s
+
+What we can do is use nested setTimeout here as shown:
+
+![image](https://user-images.githubusercontent.com/42679346/128610041-febeb665-0a61-4abf-a2eb-940fa2e02849.png)
+
+Here you see how the nesting of callbacks becomes difficult to parse and maintain.
+
+Since this used to occur so frequently developers have a name for this called as “Callback hell”.
+
+To solve this we have "Promises" which we will see in next chap.
+
+
