@@ -43,15 +43,16 @@ Two things will happen here
 
 Let's see same situation in code base.
 
-Constructing Promise:
+### Constructing Promise:
 
 ![image](https://user-images.githubusercontent.com/42679346/128611214-b8c2da72-a6b9-4c35-93c4-f2abbfaea4dc.png)
 
-Returning Promise:
+### Returning Promise:
 
 ![image](https://user-images.githubusercontent.com/42679346/128611222-88a3348b-7032-448b-b75e-34f4518ce323.png)
 
-Why do we use Promises:
+### Why do we use Promises:
+
 Promise(s) is the antidote to Callback-hell. It’s a new way to introduce asynchronous callbacks without have to deal with ‘pyramid of doom’.
 
 
