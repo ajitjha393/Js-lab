@@ -1,6 +1,6 @@
 ## CHAPTER 5 - PROMISES
 
-Promises are one of the ways we can deal with asynchronous operations in JavaScript. Many people struggle with understanding how Promises work.
+Promises are one of the ways by which we can deal with asynchronous operations in JavaScript. Many people struggle in understanding, how Promises work.
 
 Demystifying Promises :
 
@@ -28,9 +28,9 @@ Promises in JavaScript is in one of these states:
 
 John lives with his mom. He is a very good boy except he does not like to clean his room.
 
-Everyday he seeks is mom's permission in evening to go out and play with his friends.
+Everyday he seeks his mom's permission in evening to go out and play with his friends.
 
-One day, in order to make john clean his room, his mom added a condition on him.
+One day, in order to make John clean his room, his mom added a condition on him.
 
 
 ![image](https://user-images.githubusercontent.com/42679346/128611204-a653375e-3b48-40ed-bd2a-2ce3c464f9e8.png)
@@ -53,6 +53,6 @@ Let's see same situation in code base.
 
 ### Why do we use Promises:
 
-Promise(s) is the antidote to Callback-hell. It’s a new way to introduce asynchronous callbacks without have to deal with ‘pyramid of doom’.
+Promise(s) is the antidote to Callback-hell. It’s a new way to introduce asynchronous callbacks without having to deal with ‘Pyramid of doom’.
 
 
