@@ -80,11 +80,11 @@ It's a myth, that let and const are not hoisted.  In reality they are hoisted.
 
 For the ES6 features like let and const the creation phase works quite differently
 
-It still goes through the code and allocates spaces for variables but the initialiser sets the variable with a special mode called TDZ (Temporal Dead Zone) which means the variable exists but they cannot be accessed before their declarations.
+It still goes through the code and allocates spaces for variables but the initializer sets the variable with a special mode called TDZ (Temporal Dead Zone) which means the variable exists but they cannot be accessed before their declarations.
 
 ### TDZ: 
 
-It is a behaviour in JS that occurs when declaring a variable with let and const. In ES6, accessing a let or const before its declaration cause ReferenceError. The time span when that happens btw the creation os variable binding and its declaration is The Temporal Dead Zone.
+It is a behaviour in JS that occurs when declaring a variable with let and const. In ES6, accessing a let or const before its declaration cause ReferenceError. The time span when that happens between the creation of variable binding and its declaration is The Temporal Dead Zone.
 
 To Sum up in case of:
 1) var, let and const  - Hoisting ✅
