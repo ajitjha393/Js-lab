@@ -11,13 +11,13 @@ Let’s discuss these today and look into callbacks.
 
 What are callbacks:
 
-Before we throw some technical jargons at you , let me give you an analogy.
+Before we throw some technical jargons at you, let me give you an analogy.
 
-How does the postal service work ?
+How does the postal service work?
 
 Say I wanted to send some message to my friend (Cool down Gen-z devs, We didn’t have phone back then).
-So I write my message on a letter and give it to the postman. 
-He than takes my letter and delivers it to the desired address. 
+So I wrote my message on a letter and gave it to the postman. 
+He then takes my letter and delivers it to the desired address. 
 Once the letter reaches my friend , He can open it and read that letter and my message will be delivered. 
 
 (Thank God Mobile phones were invented!)
@@ -30,7 +30,7 @@ And the flow of information here is what we called ***asynchronous***.
 
 A callback is a procedure / method that is to be invoked at a later point of time.
 
-Callbacks are what provides asynchronous functionalities to Javascript. It’s an integral part of building modern day web application
+Callbacks are what provides asynchronous functionalities to Javascript. It’s an integral part of building modern day web application.
 
 It involves passing a function as a parameter to another function which is then invoked in some other environment when a subscribed event occurs. 
 
@@ -82,7 +82,7 @@ What we can do is use nested setTimeout here as shown:
 
 Here you see how the nesting of callbacks becomes difficult to parse and maintain.
 
-Since this used to occur so frequently developers have a name for this called as “Callback hell”.
+Since this used to occur so frequently that developers have a name for this called as “Callback hell”.
 
 To solve this we have "Promises" which we will see in next chap.
 
